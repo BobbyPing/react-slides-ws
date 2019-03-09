@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage'
+import Fade from 'react-reveal/Fade';
 
 export default class App extends Component {
   render () {
@@ -19,8 +20,13 @@ export default class App extends Component {
           </FullpageSection>
           <FullpageSection style={{
             backgroundColor: 'black',
+            color: 'white',
             padding: '1em',
-          }}></FullpageSection>
+          }}>
+          <div class="header2">
+          <Fade><h1>What should I put on this one?</h1></Fade>
+          </div>
+          </FullpageSection>
           <FullpageSection style={{
             backgroundColor: 'firebrick',
             padding: '1em',
