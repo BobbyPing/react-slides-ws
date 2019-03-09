@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/bottega-code-school/js-builder",
   "dependencies": {
+    "@ap.cx/react-fullpage": "^0.1.10-alpha",
     "ajv": "^5.5.2",
     "autoprefixer": "^9.1.0",
     "babel-cli": "^6.26.0",
